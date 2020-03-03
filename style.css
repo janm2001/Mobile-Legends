@@ -1,0 +1,161 @@
+body{
+  font-size:18px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #eeeeee;
+  margin:0;
+  padding:0;
+}
+
+.navbar-brand{
+  margin:0px 25px;
+
+}
+
+#alice .bg{
+  background: url(img/Alice1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.navbar-nav li{
+  margin-left:10px;
+}
+
+#logo{
+  width:125px;
+  height: 50px;
+}
+
+#game-f{
+  background: #fff;
+}
+
+#features{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border-bottom: 3px solid gray;
+  text-align:center;
+}
+
+#gp{
+  color:#345678;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border-bottom: 3px solid gray;
+  text-align:center;
+}
+
+#gameplay{
+  text-align:center;
+}
+
+#i-gp{
+  width: 750px;
+  height: 500px;
+}
+
+#i-first{
+  width:450px;
+  height:350px;
+}
+
+#contact{
+  background: #222222;
+  padding:10px;
+  
+}
+
+.r{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+
+
+.blue{
+  color:aqua;
+  font-size: 0.8rem;
+  text-align: right;
+}
+
+.second p{
+  font-size:0.8rem;
+}
+
+h4{
+  color:rgb(180, 180, 180);
+  font-size:1.75rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.gray{
+  color:gray;
+}
+
+.aqua{
+  color:aqua;
+
+}
+
+#alice h1{
+  font-size:4rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border-bottom: 2px solid rgb(255, 6, 6);
+  color:rgb(255, 6, 6);
+}
+
+#alice h2{
+  font-size: 3rem;
+  font-family: cursive;
+  border-bottom:1px solid aqua ;
+}
+
+.video{
+  text-align: center;
+}
+
+.purple{
+  color:purple;
+}
+
+#alice{
+  background: #fefefe;
+}
+
+.img{
+  text-align: center;
+}
+
+#youtube{
+  color: red;
+}
+
+#instagram{
+  color:orange;
+}
+
+#footer{
+  background:#000;
+  color:#fff;
+  padding:10px;
+}
+
+
+/*MEDIA QUERY*/
+@media (max-width:961px){
+  #i-gp{
+    width: 350px;
+    height: 200px;
+  }
+  
+  #i-first{
+    width:350px;
+    height:225px;
+  }
+}
+
+.nav-link:hover{
+  background: gray;
+}
+
+
+
