@@ -18,6 +18,20 @@ body{
   height: 500px;
 }
 
+#miya .bg{
+  background: url(img/miya2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+#aurora .bg{
+  background: url(img/aurora.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
 .navbar-nav li{
   margin-left:10px;
 }
@@ -103,7 +117,41 @@ h4{
   color:rgb(255, 6, 6);
 }
 
+#miya h1{
+  font-size:4rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border-bottom: 2px solid rgb(1, 76, 238);
+  color:rgb(1, 76, 238);
+}
+
+#aurora h1{
+  font-size:4rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border-bottom: 2px solid rgb(1, 76, 238);
+  color:rgb(1, 76, 238);
+}
+
+.yellow{
+  color:rgb(165, 168, 0);
+}
+
+.red{
+  color:rgb(151, 0, 0);
+}
+
 #alice h2{
+  font-size: 3rem;
+  font-family: cursive;
+  border-bottom:1px solid aqua ;
+}
+
+#miya h2{
+  font-size: 3rem;
+  font-family: cursive;
+  border-bottom:1px solid aqua ;
+}
+
+#aurora h2{
   font-size: 3rem;
   font-family: cursive;
   border-bottom:1px solid aqua ;
